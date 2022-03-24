@@ -1,0 +1,135 @@
+/* header strat*/
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #ddd;
+}
+
+header{
+    background-color: black;
+    width:100%;
+    color: rgb(105, 90, 67);
+    display: flex;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    padding-left: 100px;
+    width: 200px;
+    padding-top: 10px;
+    text-transform: uppercase;
+
+
+
+}
+.navber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+
+}
+.navber ul {
+    
+    list-style: none;
+    margin-top: 2%;
+    cursor: pointer;
+
+}
+.navber ul li{
+    background-color:  rgb(179, 154, 117);;
+    width: 170px;
+    border: 1px solid tomato;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: thistle;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.navber ul li a{
+    text-decoration:none ;
+    color:white;
+    text-align:center ;
+
+}
+.navber ul li:hover{
+    background-color: rgb(107, 58, 18);
+    transition:0.5s;
+
+}
+.navber ul ul{
+    display:none ;
+}
+.navber ul li:hover >ul{
+    display: block;
+}
+/* header end*/
+
+
+/*form start*/
+.form1{
+    background-color: #deb887;
+    color: #6b3a12;
+    text-align: center;
+    font-size: 40px;
+    margin:0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 80px;
+    margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: px px 10px 10px;
+
+
+}
+.form1 input{
+    padding: 5px 50px;
+    border-color: crimson;
+    border-radius: 50px;
+}
+.from1 .btn{
+    font-weight:;
+}
+
+
+/*form end*/
+footer{
+    height: 400px   ;
+    position: absolute;
+    bottom: 0;
+    text-align:center;
+    background-color:black ;
+    color: rgb(143, 84, 84);
+    width: 100%;
+
+}
+.fot h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:;
+}
+.latter p{
+    max-width: 600px;
+    text-align: center;
+    margin:0px auto;
+    position: relative;
+    margin-top: -30px;
+    padding-top: 20px;
+
+}
+.copy{
+    max-width: 100%;
+    background-color: burlywood;
+    height: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    line-height: 50px;
+}
